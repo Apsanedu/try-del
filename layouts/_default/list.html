@@ -1,0 +1,7 @@
+
+{{ partial "header.html" . }}
+<header><h1>{{ with .Params.icon }}<img src="/pix/{{ . }}" class=titleicon>{{ end }}{{ .Title }}</h1></header>
+<article>{{ with .Params.img }}<img src="/pix/{{ . }}" class=titleimg>{{ end }}
+{{ .Content }}
+</article>
+<h1> this is a good list from list.html</h1>
