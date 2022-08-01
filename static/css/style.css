@@ -1,5 +1,110 @@
-body {
-font-style: sans-serif;
-background: yellow;
-color:blue;
-} 
+/*systemfontstack.com*/
+body {font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    margin: 0;
+}
+.welcome-container {
+    margin: 0;
+    height: 97vh;
+    background-image: url("image5-edi.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.welcome-containerimg {
+    padding-top: 24vh;
+}
+.welcome-containertitle {
+    background-color: rgba(222, 221, 210, 0.5);
+    display: inline-block;
+    padding: 50px 50px;
+    margin: 0 30vw;
+}
+
+.welcome-title {
+    display: block;
+    height: auto;
+    width: 490px;
+    /* padding-top: 30vh;*/
+    padding: 0;
+}
+
+.welcome-latest {
+    font-size: 2rem;
+    text-align: center;
+}
+ 
+.welcome-latest-items {
+    text-align: center;
+    padding: 0;
+}
+
+.welcome-latest-item a{
+    font-size: 1.5rem;
+    padding: 0;
+    color: black;
+    text-decoration: none;
+}
+
+.welcome-footer__border {
+    background: rgba(125, 122, 91, 1);
+    position: absolute;
+    width: 100%;
+    height: 4rem;
+    bottom: 0;
+
+}
+
+.welcome-footer {
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+}
+
+.welcome-footer__items, .welcome-latest-items {
+    margin: 0;
+    list-style-type: none;
+    z-index: 10;
+}
+
+.welcome-footer__item {
+    display: inline-block;
+    color: white;
+    margin: 0;
+
+    padding: 0 0 0 3vw;
+    bottom: 0;
+    font-size: 1.2rem;
+}
+
+.welcome-footer__item a {
+    text-decoration: none;
+    color: #fff;
+}
+.welcome-footer__item a:hover {
+    text-decoration: underline;
+    color: cyan;
+}
+
+.about-me__title{
+    font-size: 2.5rem;
+    position: absolute;
+    left: 20vw;
+}
+
+.about-me {
+}
+.about-me__profile {
+    height: 400px;
+    padding: 4px 5vw 20px 10vw;
+}
+
+.about-me__text {
+    font-size: 1rem;
+    display: inline-block;
+    position: absolute;
+}
+.about-me__background {
+    background: rgba(185, 171, 171, 0.5);
+    padding: 10vh 5vw;
+}
+
